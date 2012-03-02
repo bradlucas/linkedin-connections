@@ -13,11 +13,11 @@ Supports Yahoo and Outlook (both) formats.
 
 To print your LinedIn connection emails export to either one of the Outlook formats or the Yahoo format.
 
-   $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv
+    $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv
 
 To create a file of just the connection's emails try the following.
 
-   $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv > linkedin-emails.csv
+    $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv > linkedin-emails.csv
 
 ## License
 
