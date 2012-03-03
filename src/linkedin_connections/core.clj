@@ -85,13 +85,30 @@
     (let [[firstname lastname email company title] (fn vec)]
       {:firstname firstname :lastname lastname :email email :company company :title title})))
 
-(defn get-emails [file]
-  "Return the emails from a given Linked export file.
-"
+(defn first-last-email
+  "Return first,last,email from map"
+  [map]
+  (str (:firstname map) "," (:lastname map) "," (:email map)))
+
+(defn email
+  "Return email from map"
+  [map]
+  (:email map))
+
+(defn get [file func]
+  "Return list from file by parsing lines into maps and then using func to extract the desired data"
   (with-open [rdr (io/reader file)]
     (let [seq (line-seq rdr)
           ext (get-extractor (first seq))]                       ;; Get the file specific extractor by passing the first line to get-extractor
-        (doall (map #(:email (parser ext %)) (rest seq))))))
+      (doall (map #(func (parser ext %)) (rest seq))))))
+
+(defn get-emails [file]
+  "Return the emails from a given Linked export file."
+  (get file email))
+
+(defn get-first-last-emails [file]
+  "Return firstname, lastname, email"
+  (get file first-last-email))
 
 (defn get-header
   "Test function to return the first line of the file"
