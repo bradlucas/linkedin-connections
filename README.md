@@ -25,7 +25,7 @@ To create a file of your connection's emails use the following.
 
 ### Installation
 
-`linkedin-connections` is available as a Maven artifact via [Clojars](http://clojars.org/linkedin-connections).
+`linkedin-connections` is available as a Maven artifact via [Clojars](http://clojars.org/org.clojars.blucaslinkedin-connections).
 
 ## License
 
