@@ -3,11 +3,6 @@
   (:require [clojure.java.io :as io])
   (:gen-class :main true))
 
-;; test files
-(def linkedin "/Users/brad/downloads/linkedin-connections/linkedin_connections_export_microsoft_outlook.csv")
-(def linkedin2 "/Users/brad/downloads/linkedin-connections/linkedin_connections_export_outlook_express.csv")
-(def yahoo "/Users/brad/downloads/linkedin-connections/linkedin_connections_export_yahoo.csv")
-
 ;; ------------------------------------------------------------------------
 ;; mac osx
 ;; TODO
