@@ -95,7 +95,7 @@
   [map]
   (:email map))
 
-(defn get [file func]
+(defn get-data [file func]
   "Return list from file by parsing lines into maps and then using func to extract the desired data"
   (with-open [rdr (io/reader file)]
     (let [seq (line-seq rdr)
@@ -104,11 +104,11 @@
 
 (defn get-emails [file]
   "Return the emails from a given Linked export file."
-  (get file email))
+  (get-data file email))
 
 (defn get-first-last-emails [file]
   "Return firstname, lastname, email"
-  (get file first-last-email))
+  (get-data file first-last-email))
 
 (defn get-header
   "Test function to return the first line of the file"

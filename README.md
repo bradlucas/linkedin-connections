@@ -23,6 +23,10 @@ To create a file of your connection's emails use the following.
 
     $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv > linkedin-emails.csv
 
+### Installation
+
+`linkedin-connections` is available as a Maven artifact via [Clojars](http://clojars.org/linkedin-connections).
+
 ## License
 
 Distributed under the Eclipse Public License, the same as Clojure.
