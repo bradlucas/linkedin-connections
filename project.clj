@@ -1,4 +1,4 @@
-(defproject org.clojars.blucas/linkedin-connections "1.0.0"
+(defproject org.clojars.blucas/linkedin-connections "1.0.1"
   :description "LinkedIn connections library"
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [clojure-csv/clojure-csv "2.0.1"]]
