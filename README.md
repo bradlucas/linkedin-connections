@@ -3,7 +3,7 @@
 
 A library for working with exported connection lists from LinkedIn. Supports Yahoo and Outlook (both) formats.
 
-The export from LinkedIn includes only the First Name, Last Name, Email, Title and Company for each of your contacts. There are 64 other columns in the export file with no data.
+The export from LinkedIn includes the First Name, Last Name, Email, Title and Company for each of your contacts with 64 otther empty columns in the export file.
 
 First feature implemented here is to parse the files and return the email for each contact. With this you can quickly build a file with just the emails for each of your contacts.
 
