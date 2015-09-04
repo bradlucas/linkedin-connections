@@ -7,23 +7,23 @@ The export from LinkedIn includes only the First Name, Last Name, Email, Title a
 
 First feature implemented here is to parse the files and return the email for each contact. With this you can quickly build a file with just the emails for each of your contacts.
 
-### Build
+## Build
 
     $ lein uberjar
 
 ## Usage
 
-First download your LinkedIn connections by exporting them to either of the Outlook formats or the Yahoo format. The export connections feature is available on LinkedIn at http://www.linkedin.com/addressBookExport.
+	First download your LinkedIn connections to a file FILE.csv by exporting them to either of the Outlook formats or the Yahoo format. The export connections feature is available on LinkedIn at http://www.linkedin.com/addressBookExport.
 
-To parse your connection list and print the emails to stdio use the following command.
+	To parse your connection list and print the emails to stdio use the following command.
 
-    $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv
+	$ java -jar target/linkedin-connections-1.0.1-standalone.jar FILE.csv
 
-To create a file of your connection's emails use the following.
+	To create a file of your connection's emails use the following.
 
-    $ java -jar linkedin-connections-1.0.0-standalone.jar FILE.csv > linkedin-emails.csv
+	$ java -jar target/linkedin-connections-1.0.1-standalone.jar FILE.csv > linkedin-emails.csv
 
-### Installation
+## Installation
 
 `linkedin-connections` is available as a Maven artifact via [Clojars](http://clojars.org/org.clojars.blucas/linkedin-connections).
 
