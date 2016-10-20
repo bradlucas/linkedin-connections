@@ -29,6 +29,10 @@ First feature implemented here is to parse the files and return the email for ea
 
 ## Versions
 
+### 1.0.2
+
+- bump version for clojars
+
 ### 1.0.1
 
 - Minor updates
