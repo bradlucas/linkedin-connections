@@ -27,6 +27,16 @@ First feature implemented here is to parse the files and return the email for ea
 
 `linkedin-connections` is available as a Maven artifact via [Clojars](http://clojars.org/org.clojars.blucas/linkedin-connections).
 
+## Versions
+
+### 1.0.1
+
+- Minor updates
+
+### 1.0.0
+
+- Original release
+
 ## License
 
 Distributed under the Eclipse Public License, the same as Clojure.
