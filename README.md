@@ -1,5 +1,6 @@
 # linkedin-connections
-======================
+
+[![Clojars Project](https://img.shields.io/clojars/v/org.clojars.blucas/linkedin-connections.svg)](https://clojars.org/org.clojars.blucas/linkedin-connections)
 
 A library for working with exported connection lists from LinkedIn. Supports Yahoo and Outlook (both) formats.
 
